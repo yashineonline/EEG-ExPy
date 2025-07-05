@@ -46,7 +46,7 @@ Data sourced from Muse Muse2016 dataset (visual-N170 task).
 
 ### How to Run
 
-See [Jupyter Notebook](https://github.com/yashineonline/EEG-ExPy/blob/master/examples/spectral_attention/spectral_attention.ipynb). 
+See [Jupyter Notebook](https://github.com/yashineonline/EEG-ExPy/blob/master/examples/spectral_attention/spectral_attention.py). 
 
 To be cleaned up soon.
 
