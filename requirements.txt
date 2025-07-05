@@ -1,15 +1,17 @@
-
 ## ~~ Analysis Requirements ~~ 
 
 scikit-learn>=0.23.2
-pandas>=1.1.4
+pandas>=2.3.0
 numpy>=1.19.4,<1.24  # due to outdated libs not changing the names after: https://github.com/numpy/numpy/pull/22607
-mne>=0.20.8
-seaborn>=0.11.0
-pyriemann>=0.2.7
-jupyter
-gdown>=4.5.1
+mne>=1.9.0
+seaborn>=0.13.2
+pyriemann>=0.8
+torch>=2.7.1
+scipy>=2.7.1
+jupyter>=1.1.1
+gdown>=5.2.0
 matplotlib>=3.3.3
+PyQt5 : 5.15.11
 pysocks>=1.7.1
 pyserial>=3.5
 h5py>=3.1.0
@@ -54,7 +56,7 @@ pyobjc==7.3; sys_platform == 'darwin'
 #upgrade psychopy to use newer wxpython dependency which is prebuilt for m1 support.
 psychopy==2023.2.2
 psychtoolbox
-scikit-learn>=0.23.2
+scikit-learn>=1.7.0
 pandas>=1.1.4
 numpy>=1.19.4,<1.24  # due to outdated libs not changing the names after: https://github.com/numpy/numpy/pull/22607
 mne>=0.20.8
